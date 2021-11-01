@@ -54,7 +54,7 @@ logging.basicConfig(
 def pytest_configure(config):
     open(LOGGING_FILE, 'w').close()
     config.option.allure_report_dir = ALLURE_RESULTS_DIR
-    config.option.clean_alluredir = False
+    config.option.clean_alluredir = True
 
 
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)
