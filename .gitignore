@@ -10,5 +10,5 @@
 /.idea
 /tests/webdriver.log
 /crds
-/.gitignore
 /conftest.py
+/.gitignore
