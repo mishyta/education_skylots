@@ -12,7 +12,7 @@ from utils.listener import MyListener
 SELENOID_IP = '10.8.0.46'
 SELENOID_HUB_PORT = '4444'
 SELENOID_UI_PORT = '8080'
-BROWSERS_FOR_TESTS = ["firefox"]
+BROWSERS_FOR_TESTS = ["chrome", "firefox", "opera"]
 # ["chrome", "firefox", "opera"] - for selenoid 
 # ["local_ff"] - for local debug with Firefox()
 # If, you wont to local debug - don't forget the driver 
