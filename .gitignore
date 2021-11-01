@@ -10,3 +10,4 @@
 /.idea
 /tests/webdriver.log
 /crds
+/.gitignore
