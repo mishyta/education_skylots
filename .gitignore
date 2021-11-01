@@ -1,14 +1,1 @@
-/allure-results/
-/.vscode/
-/.pytest_cache/
-/tests/.pytest_cache/
-/chromedriver
-/geckodriver
-/geckodriver.log
-/webdriver.log
-/trash.py
-/.idea
-/tests/webdriver.log
-/crds
-/.gitignore
-conftest.py
+
