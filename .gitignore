@@ -10,6 +10,5 @@
 /.idea
 /tests/webdriver.log
 /crds
-/conftest.py
 /.gitignore
-/conftest.py
+conftest.py

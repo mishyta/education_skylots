@@ -8,11 +8,10 @@ from selenium.webdriver.support.events import EventFiringWebDriver
 
 from pages.basepage import Webdriverhandler
 from utils.listener import MyListener
-
+# SELENOID
 SELENOID_IP = '10.8.0.46'
 SELENOID_HUB_PORT = '4444'
 SELENOID_UI_PORT = '8080'
-
 BROWSERS_FOR_TESTS = ["firefox"]
 # ["chrome", "firefox", "opera"] - for selenoid 
 # ["local_ff"] - for local debug with Firefox()
