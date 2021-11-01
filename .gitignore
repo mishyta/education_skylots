@@ -9,3 +9,4 @@ geckodriver.log
 geckodriver
 trash.py
 crds
+conftest.py
