@@ -11,3 +11,4 @@
 /tests/webdriver.log
 /crds
 /.gitignore
+/conftest.py
