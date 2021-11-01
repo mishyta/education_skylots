@@ -1,11 +1,10 @@
 /.pytest_cache/
-/.vscode/
-/allure-results/
-/tests/.pytest_cache/
+/.idea
+/.vscode
+/allure-results
+/tests/.pytest_cache
+*.log
 chromedriver
-crds
-geckodriver
 geckodriver.log
+geckodriver
 trash.py
-webdriver.log
-.gitignore
