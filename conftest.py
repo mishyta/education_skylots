@@ -98,6 +98,5 @@ def driver(request):
                 allure.attach('http://{}:{}/video/{}.mp4'.format(SELENOID_IP, SELENOID_UI_PORT, driver.session_id),
                               name="Video",
                               attachment_type=allure.attachment_type.MP4)
-        driver.close()
         driver.quit()
 
